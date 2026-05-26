@@ -1,0 +1,31 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.auth-card h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.auth-toggle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.auth-toggle a {
+  color: #667eea;
+  cursor: pointer;
+  margin-left: 5px;
+}
